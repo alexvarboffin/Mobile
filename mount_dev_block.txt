@@ -1,0 +1,10 @@
+/dev/block/dm-0 /mnt/asec/com.kingoapp.apk-1 ext4 ro,dirsync,seclabel,nosuid,nodev,noatime 0 0
+/dev/block/dm-1 /mnt/asec/kingoroot.supersu-1 ext4 ro,dirsync,seclabel,nosuid,nodev,noatime 0 0
+/dev/block/dm-2 /mnt/asec/com.psyberia.fwdamper-1 ext4 ro,dirsync,seclabel,nosuid,nodev,noatime 0 0
+/dev/block/platform/sdio_emmc/by-name/system /system ext4 rw,seclabel,relatime,data=ordered 0 0
+/dev/block/platform/sdio_emmc/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/block/platform/sdio_emmc/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/block/platform/sdio_emmc/by-name/prodnv /productinfo ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/block/platform/sdio_emmc/by-name/oem /oem ext4 ro,seclabel,relatime,data=ordered 0 0
+/dev/block/vold/179:129 /mnt/media_rw/sdcard0 vfat rw,nosuid,nodev,noexec,relatime,uid=1023,gid=1023,fmask=0007,dmask=0007,allow_utime=0020,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+/dev/block/vold/179:129 /mnt/secure/asec vfat rw,nosuid,nodev,noexec,relatime,uid=1023,gid=1023,fmask=0007,dmask=0007,allow_utime=0020,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
